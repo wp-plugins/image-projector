@@ -1,0 +1,142 @@
+
+/**
+ * SYSTEM SETTINGS
+ * styles that I may suggest you leave as is
+**/
+
+#wpiv_underlay {
+	position:absolute;
+	overflow:hidden;
+	min-width: 100%;
+	min-height: 100%;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	opacity:1;
+	z-index:1000;
+	cursor:pointer;
+	outline:none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+#wpiv_ovl {
+	overflow:hidden;
+	position:absolute;
+	display:block;
+	background-position:center 50%;
+	background-repeat:no-repeat;
+	z-index: 1001;
+	border:0px;
+}
+#wpiv_ovl_text{
+display:none;
+padding:20px 10px 10px 10px;
+font-size:20px;
+line-height:28px;
+text-align:center;
+text-shadow: 0.1em 0.1em black;
+}
+
+#wpiv_prev {
+	position:absolute;
+	width:0px;
+	height:0px;
+	left:10px;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-right: 30px solid rgba(150,150,150,.70);
+}
+#wpiv_prev:hover {
+	border-right:30px solid rgba(150,150,150,1);
+}
+#wpiv_next {
+	position:absolute;
+	width:0px;
+	height:0px;
+	right:10px;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid rgba(150,150,150,.70);
+}
+#wpiv_next:hover {
+	border-left:30px solid rgba(150,150,150,1);
+}
+#wpiv_menu ul {
+	margin:0px;
+	padding:0px;
+}
+#wpiv_menu ul li {
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	display:inline-block;
+	text-align:center;
+	list-style:none;
+	color:white;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#wpiv_menu ul > li.wpiv_cmd:hover {
+	background-color:#727272;
+}
+#wpiv_menu ul > li.wpiv_cmd.wpiv_auto_running {
+	background-color:rgba(90,50,50,0.8);
+}
+#wpiv_menu ul > li.wpiv_cmd.wpiv_auto_running:hover {
+	background-color:rgba(110,50,50,.80);
+}
+#wpiv_menu ul > li.wpiv_cmd_inactive {
+	color:#828282;
+}
+
+/**
+ * USER SETTINGS
+ * typically user-defined styles
+ */
+/* color of underlay */
+#wpiv_underlay {
+	background-color:#525252;
+}
+
+/* color and font size in menu */
+#wpiv_menu {
+	font-size:20px;
+	background-color:rgba(50,50,50,.80);
+}
+
+/* background style for square style no 1 */
+.wpiv_view_square_one {
+	box-shadow:#323232 1px 1px 1px 0px;
+	background-color:rgb(255, 255, 245);
+}
+/* background style for square style no 2 */
+.wpiv_view_square_two {
+	box-shadow:#323232 1px 2px 3px 0px;
+	background-color:#626262;
+}
+/* image border style for style no 3 */
+.wpiv_view_border {
+	border:1px solid rgb(255, 255, 245);
+}
+/* auto-next running indicator */
+#wpiv_running {
+	border-radius:50%;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	bottom: 10px;
+	left: 10px;
+	display: none;
+	background-color: rgba(200,250,50,1);
+}
+
+
