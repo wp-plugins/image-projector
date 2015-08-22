@@ -11,30 +11,31 @@ Less is more. A swift and responsive viewer and slideshow for the published post
 
 
 == Description ==
-This plugin provides a responsive full-window viewer and slideshow for the first image in published posts. No gallery or editing of code required.
+This plugin provides a **responsive** full-window viewer and slideshow for the first image in published posts. **No gallery or editing of code required**.
 
-Convenient for those who runs photography-heavy websites with one photo per post and does not want the hassle with setting up and maintaining separate galleries - and do not want to navigate to a new page to view the photos.
+Convenient for those who runs photography-heavy websites with one photo per post and does not want the hassle with setting up and maintaining separate galleries.
 
 In short:  
 *No setup of galleries required  
 *Responsive  
-*Clean user interface  
+*Simple  
 *Visitor can switch between styles run-time  
 *Post title as caption  
 *Modify colors, borders and fonts as you like  
 *Uses on-demand image loading and preloading - fast startup  
+*Hardware-accellerated slide transition  
 *ACTIVE SUPPORT and available for enhancement and modification requests  
 
-When activated from a **single-post page**, it allows you to navigate through the first image in all published posts. [DEMO HERE](http://www.lystfotograf.net/archives/2446 "A single post page on lystfotograf.net"). Click an image.
+When activated from a **single-post page**, it allows you to navigate through the first image in all published posts. **[DEMO HERE](http://www.lystfotograf.net/archives/2446 "A single post page on lystfotograf.net")**. Click an image.
 
-When activated from an **archive page** (tag results, search results etc.), it limits the images to the first image attached to the posts resulting from the query. [DEMO HERE](http://www.lystfotograf.net/tags/fog "A tag archive page on lystfotograf.net"). Click an image.
+When activated from an **archive page** (tag results, search results etc.), it limits the images to the first image attached to the posts resulting from the query. **[DEMO HERE](http://www.lystfotograf.net/tags/fog "A tag archive page on lystfotograf.net")**. Click an image.
 
 
 To be on the conservative side, 'Requires at least' has been set to 4.0, it probably works with older versions as well.
 
-Plugin uses [Imagesloaded](http://imagesloaded.desandro.com/ "imagesloaded").  [Hammer.js] (http://hammerjs.github.io/) "hammer.js on github") included to support touch events.
+Plugin uses [Imagesloaded](https://github.com/desandro/imagesloaded/ "imagesloaded on GitHub") for smooth appearance. [Hammer.js](http://hammerjs.github.io/ "hammer.js on GitHub") is included to support touch events.
 
-Suggestions for modifications are welcome!
+**Suggestions for modifications and enhancements are welcome!**
 
 
 == Installation ==
@@ -66,7 +67,7 @@ For those who are blessed with a keyboard:
 Yes, this can be specified in the plugin settings page.
 
 = Can I modify the styles? =
-Yes. Please have a look into the plugin settings page and the stylesheet located in the plugin directory.
+Yes. Please have a look into the plugin settings page and the stylesheet located in the plugin directory. If you need advice on how to set up the styles please leave a support message.
 
 If you have any suggestions to enhacements or modifications, feedback is very much appreciated!
 
@@ -100,7 +101,7 @@ Other lazy-loading implementations may have a different way to set it up, please
 == Screenshots ==
 
 1. Image on square background 1
-2. With menu turned on
+2. Menu turned on
 3. Image on square background 2
 4. Image with border
 5. Full window. Aspect ratio will always be kept.
@@ -108,7 +109,7 @@ Other lazy-loading implementations may have a different way to set it up, please
 7. Settings page
 == Changelog ==
 = 1.5 =
-* Replaced menu text with icons
+* Replaced menu text with font icons
 * Tested with WordPress 4.3
 = 1.4 =
 * Left/right swipe implemented using hammer.js
