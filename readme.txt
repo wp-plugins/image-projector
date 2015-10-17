@@ -106,7 +106,8 @@ Other lazy-loading implementations may have a different way to set it up, please
 4. Image with border
 5. Full window. Aspect ratio will always be kept.
 6. With captions
-7. Settings page
+7. On bright background
+8. Settings page
 == Changelog ==
 = 1.5 =
 * Replaced menu text with font icons
