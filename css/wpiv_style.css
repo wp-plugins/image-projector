@@ -1,0 +1,208 @@
+/**
+ * http://www.lystfotograf.net/imageprojector
+ * SYSTEM SETTINGS
+ * Styles that I may suggest you leave as is.
+ * See user settings below.
+*/
+.wpiv_underlay_full {
+	position:absolute;
+	overflow:hidden;
+	min-width: 100%;
+	min-height: 100%;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	opacity:1;
+	z-index:1000;
+	cursor:pointer;
+	outline:none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+.forceGPU  {
+	
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-webkit-transform: translate3D(0px,0px,0px);
+	-moz-transform: translate3D(0px,0px,0px);
+	transform: ttranslate3D(0px,0px,0px);
+
+}
+
+.mi-align {
+vertical-align:middle;
+
+}
+
+.material-icons.md-sz { font-size: 24px;}
+.material-icons.md-sz-small { font-size: 20px;}
+
+
+#wpiv_ovl {
+	overflow:hidden;
+	position:absolute;
+	display:block;
+	background-position:center 50%;
+	background-repeat:no-repeat;
+	z-index: 1010;
+	border:0px;
+}
+#wpiv_ovl_text{
+	display:none;
+	padding:20px 10px 10px 10px;
+	font-size:20px;
+	line-height:28px;
+	text-align:center;
+	text-shadow: 0.1em 0.1em black;
+}
+
+.arrow_prev {
+	position:absolute;
+	width:0px;
+	height:0px;
+	left:10px;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-right: 25px solid rgba(150,150,150,.70);
+}
+
+.arrow_prev :hover {
+	border-right:25px solid rgba(150,150,150,1);
+}
+.arrow_next  {
+	position:absolute;
+	width:0px;
+	height:0px;
+	right:10px;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-left: 25px solid rgba(150,150,150,.70);
+}
+
+.arrow_next :hover {
+	border-left:25px solid rgba(150,150,150,1);
+}
+
+.menu ul {
+	margin:0px;
+	padding:0px;
+
+}
+.menu ul > li {
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	display:inline-block;
+	text-align:center;
+	list-style:none;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.menu ul > li.wpiv_cmd:hover {
+	background-color:#525252;
+
+}
+.menu ul > li.wpiv_cmd.wpiv_auto_running {
+	background-color:rgba(90,50,50,0.8);
+}
+.menu ul > li.wpiv_cmd.wpiv_auto_running:hover {
+	background-color:rgba(110,50,50,.80);
+}
+.menu ul > li.wpiv_cmd_inactive {
+	color:#828282;
+}
+
+
+/**
+ * USER SETTINGS
+ * typically user-defined styles
+ */
+ 
+/* background styles - color of underlay */
+.wpiv_underlay_one {
+	background-color:rgba(82,82,82,1);
+}
+.wpiv_underlay_two {
+	background-color:rgba(250,250,250,1);
+
+}
+/* color and font size in menu */
+.menu {
+	font-size:18px;
+	color:#FFFFFF;
+	background-color:rgba(60,60,60,.8);
+
+}
+.icon-color { color: rgba(250,250,250,1); }
+
+/* color, font size and text alignment in caption */
+#wpiv_caption {
+
+	text-align:center;
+	font-size:16px;
+	color: #000000;
+	background-color:#f9f9f9;
+	-moz-box-sizing:    border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing:        border-box;	
+	border-top:1px solid #BBBBBB;
+}
+.wpiv_caption_data {
+	width:70px;
+	height:100%;
+	text-align:center;
+	font-size:14px;
+	color: #000000;
+	background-color:#eeeeee;
+	-moz-box-sizing:    border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing:        border-box;	
+
+}
+/* auto-next running indicator */
+#wpiv_running {
+    position: absolute;
+	border-radius:50%;
+	width:16px;
+	height:16px;
+	top: 5px;
+	left:5px;
+	display:none;
+	z-index:1045;
+	background-color:rgba(250,50,50,1);
+}
+/* background style for square style no 1 */
+.wpiv_view_square_one {
+	box-shadow:#323232 1px 2px 3px 0px;
+	background-color:#626262;
+}
+/* background style for square style no 2 */
+.wpiv_view_square_two {
+	box-shadow:#525252 1px 1px 3px 0px;
+	background-color:rgb(255, 255, 250);
+}
+/* image border style for style no 3 */
+.wpiv_view_border {
+	border:8px solid rgb(250,250,250);
+	box-shadow:#323232 2px 3px 14px 0px;
+
+}
+
+
+
